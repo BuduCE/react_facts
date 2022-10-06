@@ -138,7 +138,7 @@ main {
 }
 
 main.dark {
-  background-image: url("./darkbg.svg");
+  /* background-image: url("./images/react-icon-dark.png"); */
   background-color: #282D35;
   color: white;
 }

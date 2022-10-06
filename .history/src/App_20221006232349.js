@@ -7,13 +7,18 @@ function App() {
 
   const [darkMode, setDarkMode] = React.useState(false)
 
-  const switchDarkMode = () => {
+  const mode = () => {
     setDarkMode(prev => !prev)
+  }
+
+  const switchDarkMode = () => {
+
   }
   return (
     <div className="container">
-      <Navbar toggleDarkMode={switchDarkMode} darkMode={darkMode}/>
-      <Main darkMode={darkMode}/>
+      <Navbar toggleDarkMode={switchDarkMode} darkMode={darkmm
+        ode}/>
+      <Main darkMode={mode}/>
     </div>
   );
 }

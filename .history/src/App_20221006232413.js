@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="container">
       <Navbar toggleDarkMode={switchDarkMode} darkMode={darkMode}/>
-      <Main darkMode={darkMode}/>
+      <Main darkMode={darMmode}/>
     </div>
   );
 }
